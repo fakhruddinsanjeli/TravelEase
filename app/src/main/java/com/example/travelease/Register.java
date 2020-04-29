@@ -39,13 +39,7 @@ public class Register extends AppCompatActivity {
         fauth=FirebaseAuth.getInstance();
         mProgressBar=findViewById(R.id.progressBar);
 
-        if(fauth.getCurrentUser()!= null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            finish();
 
-
-
-        }
 
         mregisterbutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,7 +73,8 @@ public class Register extends AppCompatActivity {
 
                         if(task.isSuccessful()){
                             Toast.makeText(Register.this,"User created ",Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(),Permissions.class));
+                            finish();
 
 
                         }
@@ -102,6 +97,7 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),Login.class));
+                finish();
 
             }
         });

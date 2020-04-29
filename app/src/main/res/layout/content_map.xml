@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MapActivity"
+    tools:showIn="@layout/activity_map">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+    <com.skyfishjy.library.RippleBackground
+
+        android:id="@+id/ripple_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="#0099CC"
+        app:rb_duration="3000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6">
+
+        <RadioGroup
+            android:id="@+id/searchgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#FFFFFF"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/choose_category"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000	"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#000000	"
+                android:text="@string/restaurants"
+                android:textColor="#000000	" />
+
+            <RadioButton
+                android:id="@+id/atm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#000000	"
+                android:text="@string/amusement_parks"
+                android:textColor="#000000	" />
+
+            <RadioButton
+                android:id="@+id/mall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#000000	"
+                android:text="@string/malls"
+                android:textColor="#000000	" />
+
+            <RadioButton
+                android:id="@+id/touristattractions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#000000	"
+                android:text="@string/local_attractions"
+                android:textColor="#000000	" />
+
+            <RadioButton
+                android:id="@+id/stations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:buttonTint="#000000	"
+                android:text="@string/stations"
+                android:textColor="#000000	" />
+
+
+            <Button
+
+                android:id="@+id/searchintersts"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="102dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:text="@string/search"
+                android:textAlignment="center"
+
+
+                android:textColor="#000000" />
+
+
+        </RadioGroup>
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        style="@style/MaterialSearchBarLight"
+        app:mt_speechMode="false"
+        app:mt_hint="Search a Place"
+        app:mt_maxSuggestionsCount="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBar"
+        android:layout_margin="16dp"
+        app:mt_navIconEnabled="true"
+        app:mt_placeholder="Search a Place"
+        android:elevation="5dp"
+        android:outlineProvider="bounds"
+
+        />
+
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="75dp"
+        android:background="#CC000000"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/explore_nearby"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageButton
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/cloudy53"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/favourites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="327dp"
+        android:layout_marginTop="77dp"
+
+        android:src="@drawable/ic_favourites"
+        android:visibility="invisible" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/launcher_color"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        />
+
+
+
+
+
+
+</RelativeLayout>

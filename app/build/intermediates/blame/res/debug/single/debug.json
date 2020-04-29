@@ -4,24 +4,152 @@
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\chicle.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_navigation.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\menu\\menu_navigation.xml"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic.jpeg.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\pic.jpeg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_custominfowindow.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\custominfowindow.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snow5.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\snow5.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_allan.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\allan.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_calligraffitti.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\calligraffitti.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_cloud.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on_black_24dp.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_location_on_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_cloud.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_cloud.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_light_rain.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\light_rain.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_alex_brush.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\alex_brush.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_change_city_symbol_small.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\change_city_symbol_small.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plan.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_plan.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cloudy53.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable-v24\\cloudy53.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cloudy2.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\cloudy2.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snow4.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\snow4.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_alike.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\alike.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_weather_background.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\weather_background.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_weathericon.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable-v24\\weathericon.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blurimage.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\blurimage.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_cloud.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blurimage2.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\blurimage2.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_heartfilled.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_heartfilled.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_weather_controller.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\activity_weather_controller.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blurimage1.jpeg.flat",
@@ -32,16 +160,32 @@
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sunny.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_sunny.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_permissions.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\activity_permissions.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_allan.xml.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\allan.xml"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pinperfect.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable-v24\\pinperfect.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_change_city_symbol.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\change_city_symbol.png"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -56,8 +200,20 @@
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_calligraffitti.xml.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\calligraffitti.xml"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tstorm1.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\tstorm1.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_cloud.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_left.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\left.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shower3.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\shower3.png"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -68,47 +224,87 @@
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\allerta.xml"
     },
     {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_cloud.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sunny.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\sunny.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bitmoji.jpg.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\bitmoji.jpg"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_cloud.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fog.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\fog.png"
+    },
+    {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_alex_brush.xml.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\alex_brush.xml"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_listviewactivty.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\activity_listviewactivty.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_overcast.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\overcast.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_map.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\layout\\content_map.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
     {
         "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tstorm3.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\tstorm3.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\font_alike.xml.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\font\\alike.xml"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favourites.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_favourites.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_weatherfilled.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_weatherfilled.xml"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blurimage.jpg.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\blurimage.jpg"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blurimage2.jpg.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\blurimage2.jpg"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cloud_refresh.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\cloud_refresh.png"
     },
     {
-        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic1.jpeg.flat",
-        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\pic1.jpeg"
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\selector.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dunno.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\dunno.png"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.xml.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\PROJECTS\\TravelEase\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_cloud.png.flat",
+        "source": "C:\\PROJECTS\\TravelEase\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_cloud.png"
     }
 ]
