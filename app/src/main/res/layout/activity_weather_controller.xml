@@ -9,7 +9,7 @@
     android:paddingRight="0dp"
     android:paddingTop="20dp"
     android:paddingBottom="0dp"
-    android:background="@drawable/weather_background"
+    android:background="@drawable/weatherbackground"
     >
 
 
@@ -37,7 +37,8 @@
         android:id="@+id/tempTV"
         android:layout_below="@+id/changeCityButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"/>
 
     <ImageButton
         android:id="@+id/changeCityButton"
@@ -46,12 +47,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="330dp"
-        android:layout_marginRight="311dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="348dp"
+        android:layout_marginRight="348dp"
         android:background="@null"
         android:contentDescription="@string/change_city_description"
-        android:src="@drawable/left" />
+        android:src="@drawable/left"
+        android:visibility="invisible" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -84,7 +87,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginBottom="0dp"
         app:itemBackground="@color/launcher_color"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"

@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim anim
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -45,6 +46,10 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 animator back_to_menu_morph
 animator back_to_menu_rotation
 animator design_appbar_state_list_animator
@@ -1870,6 +1875,10 @@ drawable amu_bubble_mask
 drawable amu_bubble_shadow
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_btn
+drawable bg_calen
+drawable bg_edittext
+drawable bg_explorebttn
 drawable bitmoji
 drawable blurimage
 drawable blurimage1
@@ -1916,6 +1925,8 @@ drawable dunno
 drawable fog
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_circle
+drawable ic_addbuttn
 drawable ic_arrow_left_black_48dp
 drawable ic_back_animated
 drawable ic_back_vector
@@ -1932,6 +1943,7 @@ drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location
 drawable ic_location_on_black_24dp
 drawable ic_logout
 drawable ic_magnify_black_48dp
@@ -1947,6 +1959,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_plan
 drawable ic_sunny
+drawable ic_symbol
 drawable ic_weatherfilled
 drawable left
 drawable light_rain
@@ -1982,6 +1995,7 @@ drawable quantum_ic_arrow_back_grey600_24
 drawable quantum_ic_clear_grey600_24
 drawable quantum_ic_cloud_off_vd_theme_24
 drawable quantum_ic_search_grey600_24
+drawable restaurants
 drawable round_corners
 drawable selector
 drawable shower3
@@ -1994,13 +2008,17 @@ drawable tooltip_frame_light
 drawable tstorm1
 drawable tstorm3
 drawable weather_background
+drawable weatherbackground
 drawable weathericon
+font acme
 font alex_brush
 font alike
 font allan
 font allerta
+font allura
 font calligraffitti
 font chicle
+font courgette
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2090,6 +2108,7 @@ id btn_grant
 id buttonPanel
 id button_first
 id button_second
+id calendarview
 id cancel_button
 id center
 id center_horizontal
@@ -2100,6 +2119,7 @@ id checkbox
 id checked
 id chip
 id chip_group
+id choosemaytype
 id chronometer
 id clear_text
 id clip_horizontal
@@ -2132,6 +2152,7 @@ id email
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id events
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2145,6 +2166,7 @@ id filled
 id filter_chip
 id fitToContents
 id fixed
+id floatbutton
 id forever
 id fragment_container_view_tag
 id fullname
@@ -2163,6 +2185,7 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView2
 id info
 id inputContainer
 id invisible
@@ -2226,6 +2249,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id mydate
 id nav_controller_view_tag
 id nav_graph
 id nav_host_fragment_container
@@ -2234,6 +2258,7 @@ id never
 id noScroll
 id none
 id normal
+id normaltype
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -2314,6 +2339,7 @@ id searchgroup
 id searchintersts
 id select_dialog_listview
 id selected
+id selecttype
 id shortcut
 id showCustom
 id showHome
@@ -2359,6 +2385,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView3
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2374,6 +2401,7 @@ id top
 id topPanel
 id touch_outside
 id touristattractions
+id traffic
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -2464,12 +2492,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_calendar
 layout activity_listviewactivty
 layout activity_login
 layout activity_main
 layout activity_map
 layout activity_permissions
 layout activity_register
+layout activity_splashscreen
 layout activity_weather_controller
 layout amu_info_window
 layout amu_text_bubble

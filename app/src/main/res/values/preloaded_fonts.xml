@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
         <item>@font/alex_brush</item>
         <item>@font/alike</item>
         <item>@font/allan</item>
         <item>@font/allerta</item>
+        <item>@font/allura</item>
         <item>@font/calligraffitti</item>
         <item>@font/chicle</item>
+        <item>@font/courgette</item>
     </array>
 </resources>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [androidx.navigation:navigation-ui:2.2.1] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\a22b9ddafbe0fa20e6994369c8e28ef7\navigation-ui-2.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.karumi:dexter:6.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\0dc814cb7119bd461fa8f71547f4776d\jetified-dexter-6.1.0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\0a16f4100db977c4771b6e6429e696e6\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -76,20 +76,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fakhruddin\.grad
 MERGED from [androidx.print:print:1.0.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\b4bb402bf5f05f3f07aa100ebc4009e6\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\22a9d9bed3a1b15362f256544a3512ec\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\18ac41106f296c513b78fa315f9a4048\jetified-transport-api-2.1.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:2:11-69
@@ -122,7 +122,7 @@ MERGED from [com.google.android.libraries.places:places:2.2.0] C:\Users\fakhrudd
 	android:name
 		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:8:5-44:19
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:8:5-52:19
 MERGED from [com.karumi:dexter:6.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\0dc814cb7119bd461fa8f71547f4776d\jetified-dexter-6.1.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\0dc814cb7119bd461fa8f71547f4776d\jetified-dexter-6.1.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\fakhruddin\.gradle\caches\transforms-2\files-2.1\0a16f4100db977c4771b6e6429e696e6\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -207,62 +207,70 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\fakhruddin\.gradle\caches
 		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.example.travelease.listviewactivty
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:15:9-62
+activity#com.example.travelease.splashscreen
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:15:19-50
-activity#com.example.travelease.WeatherController
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:16:9-55
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:16:19-52
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:18:9-20:71
-	android:value
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:20:13-68
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:19:13-58
-activity#com.example.travelease.MapActivity
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:22:9-25:59
-	android:label
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:24:13-55
-	android:theme
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:25:13-56
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:23:13-40
-activity#com.example.travelease.Permissions
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:26:9-49
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:26:19-46
-activity#com.example.travelease.Register
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:27:9-46
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:27:19-43
-activity#com.example.travelease.Login
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:28:9-34:20
-	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:28:19-40
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:32:27-74
-activity#com.example.travelease.MainActivity
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:35:9-39:20
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.travelease.calendar
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:22:9-46
 	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:22:19-43
+activity#com.example.travelease.listviewactivty
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:23:9-53
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:23:19-50
+activity#com.example.travelease.WeatherController
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:24:9-55
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:24:19-52
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:26:9-28:71
+	android:value
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:28:13-68
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:27:13-58
+activity#com.example.travelease.MapActivity
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:30:9-33:59
+	android:label
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:32:13-55
+	android:theme
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:31:13-40
+activity#com.example.travelease.Permissions
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:34:9-49
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:34:19-46
+activity#com.example.travelease.Register
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:35:9-46
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:35:19-43
+activity#com.example.travelease.Login
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:36:9-42:20
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:36:19-40
 intent-filter#category:name:android.intent.category.LAUNCHER
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:36:13-38:29
-meta-data#preloaded_fonts
-ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:41:9-43:57
-	android:resource
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:43:13-54
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:37:13-41:29
+activity#com.example.travelease.MainActivity
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:43:9-47:20
 	android:name
-		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:42:13-43
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:43:19-47
+meta-data#preloaded_fonts
+ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:49:9-51:57
+	android:resource
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml:50:13-43
 uses-sdk
 INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\PROJECTS\TravelEase\app\src\main\AndroidManifest.xml

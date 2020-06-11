@@ -97,6 +97,13 @@ public class WeatherController extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()){
 
+                    case R.id.plan:
+                        startActivity(new Intent(WeatherController.this,calendar.class));
+                        finish();
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+
+                        return true;
+
                     case R.id.weather:
 
                         return true;
@@ -104,7 +111,7 @@ public class WeatherController extends AppCompatActivity {
                     case R.id.home:
                         startActivity(new Intent(WeatherController.this,MapActivity.class));
                         finish();
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 
 
                         return true;
@@ -112,7 +119,7 @@ public class WeatherController extends AppCompatActivity {
                     case R.id.favourites:
                         startActivity(new Intent(WeatherController.this,listviewactivty.class));
                         finish();
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 
                         return true;
                     case  R.id.logout:

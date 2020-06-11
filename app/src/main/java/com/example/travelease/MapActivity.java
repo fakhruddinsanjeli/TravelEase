@@ -1,6 +1,7 @@
 package com.example.travelease;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
@@ -40,7 +41,9 @@ import com.google.android.libraries.places.api.net.FetchPlaceResponse;
 import com.google.android.libraries.places.api.net.FindAutocompletePredictionsRequest;
 import com.google.android.libraries.places.api.net.FindAutocompletePredictionsResponse;
 import com.google.android.libraries.places.api.net.PlacesClient;
+import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.maps.android.data.geojson.GeoJsonLayer;
@@ -103,6 +106,12 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
     private RadioButton radiobutton4;
     private RadioButton radiobutton5;
     private ImageButton favourite;
+    private FloatingActionButton mFloatingActionButton;
+    private RadioGroup maptype;
+    private RadioButton normal;
+    private RadioButton satellite;
+    private RadioButton traffic;
+    FirebaseAuth fAuth;
 
 
 
@@ -134,6 +143,10 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
         radiobutton5=findViewById(R.id.stations);
         radiobutton4=findViewById(R.id.touristattractions);
         favourite=findViewById(R.id.favourites);
+        mFloatingActionButton=findViewById(R.id.choosemaytype);
+        maptype=findViewById(R.id.selecttype);
+        fAuth=FirebaseAuth.getInstance();
+
 
 
         searchintersts=findViewById(R.id.searchintersts);
@@ -141,6 +154,7 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
 
 
          Places.initialize(getApplicationContext(),"AIzaSyC15AL8JjDv1ClSklVa-rZEEKlNiWUN18o");
+
 
 
 
@@ -170,6 +184,10 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
             @Override
             public void onButtonClicked(int buttonCode) {
                 if(buttonCode==MaterialSearchBar.BUTTON_NAVIGATION){
+                    
+
+
+
 
 
                     //opening or closing a navigation drawer
@@ -290,16 +308,24 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
                                 mMap.addMarker(mp);
                                 CustomInfoWindowAdapter adapter = new CustomInfoWindowAdapter(MapActivity.this);
                                 mMap.setInfoWindowAdapter(adapter);
+                               final String mUserId = fAuth.getUid();
+
+
+
 
                                 mMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
                                     @Override
                                     public void onInfoWindowClick(Marker marker) {
                                         locationhelper helper=new locationhelper( place.getName());
-                                        FirebaseDatabase.getInstance().getReference("Current Location").push().setValue(helper).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        FirebaseDatabase.getInstance().getReference("Current Location").child(mUserId).push().setValue(helper).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task<Void> task) {
 
-                                                Toast.makeText(MapActivity.this,"Saved In Favourites",Toast.LENGTH_SHORT).show();
+                                                Toast  toast= Toast.makeText(MapActivity.this,"Saved In Favourites",Toast.LENGTH_SHORT);
+                                                        toast.setGravity(Gravity.CENTER, 0, 700);
+                                                        toast.show();
+
+
 
                                             }
                                         });
@@ -378,6 +404,18 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
 
             }
         });
+        mFloatingActionButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+
+                maptype.setVisibility(view.VISIBLE);
+
+
+            }
+        });
+
+
         searchintersts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View view) {
@@ -443,6 +481,7 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
                       @Override
                       public void run() {
                           findmall();
+
 
 
                           mRippleBackground.stopRippleAnimation();
@@ -526,10 +565,19 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch(item.getItemId()){
 
+
+                    case R.id.plan:
+                        startActivity(new Intent(MapActivity.this,calendar.class));
+                        finish();
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
+
+                        return true;
+
+
                     case R.id.weather:
                          startActivity(new Intent(MapActivity.this,WeatherController.class));
                          finish();
-                         overridePendingTransition(0,0);
+                         overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
 
                          return true;
 
@@ -540,7 +588,7 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
                     case R.id.favourites:
                         startActivity(new Intent(MapActivity.this,listviewactivty.class));
                         finish();
-                        overridePendingTransition(0,0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
 
                         return true;
 
@@ -565,6 +613,34 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
 
 
 
+    }
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.normaltype:
+                if (checked)
+                    // Pirates are the best
+                    mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+                mMap.setTrafficEnabled(false);
+                maptype.setVisibility(view.INVISIBLE);
+                    break;
+            case R.id.satellite:
+                if (checked)
+                    mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+                maptype.setVisibility(view.INVISIBLE);
+                    // Ninjas rule
+                    break;
+
+            case R.id.traffic:
+                if (checked)
+                    mMap.setTrafficEnabled(true);
+                maptype.setVisibility(view.INVISIBLE);
+                    // Ninjas rule
+                    break;
+        }
     }
 
     public  void  findrestaurantsbutton(){
@@ -874,7 +950,7 @@ GoogleMap.OnPoiClickListener, GoogleMap.OnInfoWindowClickListener {
     @Override
     public void onInfoWindowClick(Marker marker) {
 
-        Toast.makeText(MapActivity.this,"Saved In Favourites",Toast.LENGTH_SHORT).show();
+
 
     }
 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calendar"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Plan Your Travel"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/mydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="140dp"
+        android:text="Mark Your Dates"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="23sp"
+
+
+        />
+
+
+
+
+
+    <CalendarView
+        android:id="@+id/calendarview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_calen"
+        android:layout_centerInParent="true"
+        >
+
+    </CalendarView>
+
+
+    <Button
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:background="@drawable/bg_btn"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Add an Event"
+        android:onClick="AddCalendarEvent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="135dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/launcher_color"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        />
+
+
+
+</RelativeLayout>

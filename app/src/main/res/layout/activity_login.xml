@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#66ffffff"
+        android:background="@drawable/bg_edittext"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#66ffffff"
+        android:background="@drawable/bg_edittext"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -60,7 +60,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.086"
+        />
 
     <Button
         android:id="@+id/logbutton"
@@ -68,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#CC000000"
+        android:background="@drawable/bg_explorebttn"
         android:text="Login"
         android:textColor="#fcf8f3"
         android:textSize="20sp"

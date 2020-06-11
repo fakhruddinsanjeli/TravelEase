@@ -5,22 +5,22 @@ public class locationhelper {
 
     private double latitude;
     private double longitude;
-    private String placename;
+    private String Place;
 
 
 
-    public locationhelper(String placename) {
-        this.placename=placename;
+    public locationhelper(String Place) {
+        this.Place=Place;
 
 
     }
 
     public String getPlacename() {
-        return placename;
+        return Place;
     }
 
-    public void setPlacename(String placename) {
-        this.placename = placename;
+    public void setPlacename(String Place) {
+        this.Place = Place;
     }
 
 

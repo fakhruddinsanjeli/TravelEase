@@ -21,6 +21,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.security.PublicKey;
+
 public class Login extends AppCompatActivity {
     EditText memail, mpassword;
     Button mloginbttn;
@@ -40,6 +42,15 @@ public class Login extends AppCompatActivity {
         fAuth=FirebaseAuth.getInstance();
         mloginbttn=findViewById(R.id.logbutton);
         mcreatebtn=findViewById(R.id.alreadyregistered);
+
+        if(fAuth.getCurrentUser()!=null){
+            startActivity(new Intent(getApplicationContext(),MapActivity.class));
+            finish();
+
+
+
+
+        }
 
         mloginbttn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,6 +82,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if(task.isSuccessful()){
+
 
 
                             Toast.makeText(Login.this,"Logged in Successfully",Toast.LENGTH_SHORT).show();

@@ -32,6 +32,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.travelease.splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.travelease.calendar" />
         <activity android:name="com.example.travelease.listviewactivty" />
         <activity android:name="com.example.travelease.WeatherController" />
 
@@ -47,8 +55,6 @@
         <activity android:name="com.example.travelease.Register" />
         <activity android:name="com.example.travelease.Login" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

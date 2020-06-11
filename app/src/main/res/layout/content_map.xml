@@ -125,10 +125,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/searchBar"
         android:layout_margin="16dp"
-        app:mt_navIconEnabled="true"
+        app:mt_navIconEnabled="false"
         app:mt_placeholder="Search a Place"
-        android:elevation="5dp"
+        android:elevation="0dp"
         android:outlineProvider="bounds"
+        app:mt_roundedSearchBarEnabled="true"
 
         />
 
@@ -141,13 +142,14 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="54dp"
         android:layout_marginBottom="75dp"
-        android:background="#CC000000"
+        android:background="@drawable/bg_explorebttn"
         android:fontFamily="sans-serif-black"
         android:text="@string/explore_nearby"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
+
         />
 
 
@@ -165,7 +167,7 @@
         android:id="@+id/favourites"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="327dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="77dp"
 
         android:src="@drawable/ic_favourites"
@@ -181,6 +183,66 @@
         app:itemTextColor="@drawable/selector"
         app:menu="@menu/menu_navigation"
         />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/choosemaytype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="85dp"
+        android:background="@color/quantum_bluegrey50"
+
+
+        android:src="@drawable/ic_location"
+        app:backgroundTint="#FFFFFFFF"
+        app:fabSize="mini" />
+
+
+    <RadioGroup
+        android:id="@+id/selecttype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="90dp"
+        android:background="#FFFFFF"
+        android:visibility="invisible">
+
+
+        <RadioButton
+            android:id="@+id/normaltype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:buttonTint="#000000	"
+            android:onClick="onRadioButtonClicked"
+            android:text="Normal"
+            android:textColor="#000000	" />
+
+        <RadioButton
+            android:id="@+id/satellite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:buttonTint="#000000	"
+            android:onClick="onRadioButtonClicked"
+            android:text="Satellite"
+            android:textColor="#000000	" />
+
+        <RadioButton
+            android:id="@+id/traffic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:buttonTint="#000000	"
+            android:onClick="onRadioButtonClicked"
+            android:text="Traffic"
+            android:textColor="#000000" />
+
+
+    </RadioGroup>
 
 
 

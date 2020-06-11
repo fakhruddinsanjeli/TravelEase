@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#66ffffff"
+        android:background="@drawable/bg_edittext"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
@@ -69,7 +69,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#66ffffff"
+        android:background="@drawable/bg_edittext"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -87,7 +87,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:background="#66ffffff"
+        android:background="@drawable/bg_edittext"
         android:ems="10"
         android:hint="Phone No."
         android:inputType="textPersonName"
@@ -105,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="#CC000000"
+        android:background="@drawable/bg_explorebttn"
         android:text="Register"
         android:textColor="#fcf8f3"
         android:textSize="20sp"
@@ -115,7 +115,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Phoneno"
         app:layout_constraintVertical_bias="0.13999999"
-        tools:text="Register" />
+        tools:text="Register"
+        />
 
     <TextView
         android:id="@+id/alreadyregistered"
